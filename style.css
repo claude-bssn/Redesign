@@ -53,7 +53,7 @@ footer{
 }
 .legal{
   position: absolute;
-  right: 15px;
+  right: 20px;
   font-size: 2rem;
   text-shadow: 1px 0 0 #682515;
   transition: all .2s ease-in-out; 
@@ -79,7 +79,6 @@ footer{
 }
 .logo{
   margin-top: 5vh;
-  width: 80vw;
 }
 nav{
   display: flex;
@@ -231,7 +230,7 @@ margin-top: 10px;
 }
 .cart-icon{
   position: absolute;
-  top: 20vh;
+  top: 28vh;
   color: #fff;
   right: 15vw;
 }
@@ -257,4 +256,72 @@ margin-top: 10px;
   color: #fff;
   text-shadow: 2px 1px 0 #682515;
   font-size: 5rem;
+}
+@media  screen and (max-width: 529px) {
+  .logo{
+    width: 80vw;
+  margin-top: 50px;
+  }
+  nav{
+    right: unset;
+    width: 90vw;
+    font-size: 1.7rem;
+  }
+  .title{
+    top: 90px;
+  }
+  .search > form > input {
+    width: 250px;
+  }
+  .card-concert {
+    height: 450px;
+    flex-direction: column;
+  }
+  .card-concert > img {
+    margin-right: 10px;
+    height: 200px;
+    width: 178px;
+    align-self: center;
+  }
+  .price {
+    display: flex;
+    position: unset;
+    margin: unset;
+    align-self: unset;
+  }
+  .detail > a {
+    margin: unset;
+    align-self: center;
+    margin-top: 20px;
+  }
+  .detail>*{
+    margin: 10px 0 0 10px;
+  }
+
+  .game {
+    font-size: 3rem;
+  }
+  .social {
+    width: 60vw;
+  }
+  .legal {
+    bottom: -5vh;
+    right: unset;
+  }
+  .cart-icon {
+    top: 26vh;
+  }
+  iframe{
+    width: 300px;
+  }
+  .logo-gif{
+    width: 80%;
+    margin-top: 50px;
+  }
+  .nav-landing>* img{
+    width: 70px;
+  }
+  .landing >* a{
+    font-size: 1.5rem;
+  }
 }
