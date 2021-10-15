@@ -250,3 +250,11 @@ margin-top: 10px;
 .other-video>a>img{
   height: 10vw;
 }
+.game{
+  height: 53vh;
+  text-align: center;
+  font-family: 'MonteCarlo', cursive;
+  color: #fff;
+  text-shadow: 2px 1px 0 #682515;
+  font-size: 5rem;
+}
